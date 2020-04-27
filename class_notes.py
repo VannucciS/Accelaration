@@ -1,4 +1,4 @@
-
+### How to handle large amount of data ###
 # read the large csv file with specified chunksize 
 df_chunk = pd.read_csv(r'../input/data.csv', chunksize=1000000)
 
