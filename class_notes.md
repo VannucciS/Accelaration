@@ -1,3 +1,4 @@
+```
 # read the large csv file with specified chunksize 
 df_chunk = pd.read_csv(r'../input/data.csv', chunksize=1000000)
 
@@ -28,3 +29,5 @@ df[['col_1','col_2',
 df[['col_6', 'col_7',
     'col_8', 'col_9', 'col_10']] = df[['col_6', 'col_7',
                                        'col_8', 'col_9', 'col_10']].astype('float32')
+                                       
+ ```
